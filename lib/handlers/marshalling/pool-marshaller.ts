@@ -1,7 +1,7 @@
-import { Pool } from '@uniswap/v3-sdk'
-import { FeeAmount } from '@uniswap/v3-sdk/dist/constants'
+import { Pool } from '@miljan9602/v3-sdk'
+import { FeeAmount } from '@miljan9602/v3-sdk/dist/constants'
 import { MarshalledToken, TokenMarshaller } from './token-marshaller'
-import { Protocol } from '@uniswap/router-sdk'
+import { Protocol } from '@miljan9602/router-sdk'
 
 export interface MarshalledPool {
   protocol: Protocol

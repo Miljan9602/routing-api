@@ -5,7 +5,7 @@ import {
   log,
   NodeJSCache,
 } from '@miljan9602/smart-order-router'
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from '@miljan9602/sdk-core'
 import { TokenList } from '@uniswap/token-lists'
 import S3 from 'aws-sdk/clients/s3'
 import NodeCache from 'node-cache'

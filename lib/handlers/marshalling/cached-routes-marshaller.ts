@@ -1,6 +1,6 @@
 import { CachedRoutes } from '@miljan9602/smart-order-router'
-import { ChainId, TradeType } from '@uniswap/sdk-core'
-import { Protocol } from '@uniswap/router-sdk'
+import { ChainId, TradeType } from '@miljan9602/sdk-core'
+import { Protocol } from '@miljan9602/router-sdk'
 import { MarshalledToken, TokenMarshaller } from './token-marshaller'
 import { CachedRouteMarshaller, MarshalledCachedRoute } from './cached-route-marshaller'
 

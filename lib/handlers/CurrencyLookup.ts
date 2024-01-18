@@ -1,4 +1,4 @@
-import { Currency, Token } from '@uniswap/sdk-core'
+import { Currency, Token } from '@miljan9602/sdk-core'
 import { ITokenListProvider, ITokenProvider, NATIVE_NAMES_BY_ID, nativeOnChain } from '@miljan9602/smart-order-router'
 import Logger from 'bunyan'
 import { isAddress } from '../util/isAddress'

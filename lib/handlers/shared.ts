@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, Percent } from '@uniswap/sdk-core'
+import { ChainId, Currency, CurrencyAmount, Percent } from '@miljan9602/sdk-core'
 import {
   AlphaRouterConfig,
   CacheMode,
@@ -6,8 +6,8 @@ import {
   MapWithLowerCaseKey,
   ProtocolPoolSelection,
 } from '@miljan9602/smart-order-router'
-import { FeeOptions } from '@uniswap/v3-sdk'
-import { FlatFeeOptions } from '@uniswap/universal-router-sdk'
+import { FeeOptions } from '@miljan9602/v3-sdk'
+import { FlatFeeOptions } from '@miljan9602/universal-router-sdk'
 
 export const SECONDS_PER_BLOCK_BY_CHAIN_ID: { [chainId in ChainId]?: number } = {
   [ChainId.MAINNET]: 30,

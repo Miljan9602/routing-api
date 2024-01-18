@@ -1,4 +1,4 @@
-import { Protocol } from '@uniswap/router-sdk'
+import { Protocol } from '@miljan9602/router-sdk'
 import {
   IV2SubgraphProvider,
   IV3SubgraphProvider,
@@ -7,7 +7,7 @@ import {
   V3SubgraphPool,
 } from '@miljan9602/smart-order-router'
 import { S3 } from 'aws-sdk'
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from '@miljan9602/sdk-core'
 import NodeCache from 'node-cache'
 import { S3_POOL_CACHE_KEY } from '../../util/pool-cache-key'
 

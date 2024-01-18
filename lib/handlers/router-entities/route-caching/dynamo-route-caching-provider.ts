@@ -10,8 +10,8 @@ import {
   routeToString,
 } from '@miljan9602/smart-order-router'
 import { AWSError, DynamoDB, Lambda } from 'aws-sdk'
-import { ChainId, Currency, CurrencyAmount, Fraction, Token, TradeType } from '@uniswap/sdk-core'
-import { Protocol } from '@uniswap/router-sdk'
+import { ChainId, Currency, CurrencyAmount, Fraction, Token, TradeType } from '@miljan9602/sdk-core'
+import { Protocol } from '@miljan9602/router-sdk'
 import { PairTradeTypeChainId } from './model/pair-trade-type-chain-id'
 import { CachedRoutesMarshaller } from '../../marshalling/cached-routes-marshaller'
 import { MixedRoute, V2Route, V3Route } from '@miljan9602/smart-order-router/build/main/routers'

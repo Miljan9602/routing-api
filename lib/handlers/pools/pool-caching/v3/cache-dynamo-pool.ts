@@ -1,5 +1,5 @@
 import { DynamoCaching, DynamoCachingProps } from '../cache-dynamo'
-import { Pool } from '@uniswap/v3-sdk'
+import { Pool } from '@miljan9602/v3-sdk'
 import { log, metric, MetricLoggerUnit } from '@miljan9602/smart-order-router'
 import { PoolMarshaller } from '../../../marshalling/pool-marshaller'
 

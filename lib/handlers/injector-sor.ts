@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@uniswap/sdk-core'
+import { ChainId, Token } from '@miljan9602/sdk-core'
 import {
   CachingGasStationProvider,
   CachingTokenListProvider,

@@ -1,4 +1,4 @@
-import { ChainId, TradeType } from '@uniswap/sdk-core'
+import { ChainId, TradeType } from '@miljan9602/sdk-core'
 import { ID_TO_NETWORK_NAME } from '@miljan9602/smart-order-router'
 import _ from 'lodash'
 import { PAIRS_TO_TRACK } from '../handlers/quote/util/pairs-to-track'

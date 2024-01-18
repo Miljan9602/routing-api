@@ -1,5 +1,5 @@
 import { ICache } from '@miljan9602/smart-order-router/build/main/providers/cache'
-import { Pair } from '@uniswap/v2-sdk'
+import { Pair } from '@miljan9602/v2-sdk'
 import { BatchGetItemInput, DocumentClient } from 'aws-sdk/clients/dynamodb'
 import { log, metric, MetricLoggerUnit } from '@miljan9602/smart-order-router'
 import { MarshalledPair, PairMarshaller } from '../../../marshalling'
