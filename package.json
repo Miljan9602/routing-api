@@ -85,7 +85,7 @@
     "@uniswap/permit2-sdk": "^1.2.0",
     "@miljan9602/router-sdk": "^1.7.3",
     "@miljan9602/sdk-core": "^4.0.10",
-    "@miljan9602/smart-order-router": "6.0.0",
+    "@miljan9602/smart-order-router": "6.0.1",
     "@uniswap/token-lists": "^1.0.0-beta.33",
     "@miljan9602/universal-router-sdk": "^1.6.1",
     "@miljan9602/v2-sdk": "^5.0.9",
